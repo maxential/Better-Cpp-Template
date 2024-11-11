@@ -14,7 +14,7 @@
   <TemplateContent>
     <Project TargetFileName="Better C++ Template.vcxproj" File="Better C++ Template.vcxproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Better C++ Template.vcxproj.filters">Better C++ Template.vcxproj.filters</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.cpp">src/main.cpp</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
