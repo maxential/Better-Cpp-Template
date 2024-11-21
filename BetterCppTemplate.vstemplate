@@ -1,0 +1,22 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>BetterCppTemplate</Name>
+    <Description>Custom template for C++ projects</Description>
+    <ProjectType>VC</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>BetterCppProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="BetterCppTemplate.vcxproj" File="BetterCppTemplate.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BetterCppTemplate.vcxproj.filters">BetterCppTemplate.vcxproj.filters</ProjectItem>
+      <Folder Name="src">
+        <ProjectItem ReplaceParameters="true">main.cpp</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
